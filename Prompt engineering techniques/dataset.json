@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "70",
+      "goal": "maintain muscle mass and endurance",
+      "restrictions": "vegan, gluten-free"
+    },
+    "solution_criteria": [
+      "Provides a 1-day meal plan",
+      "All meals are vegan",
+      "All meals are gluten-free",
+      "Plan is compact and concise"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete who has specific dietary restrictions (e.g., vegan, gluten-free) to assess the model's ability to incorporate these constraints into a compact meal plan."
+  },
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "75",
+      "goal": "Muscle gain with macronutrient targets: high protein (2.0g/kg), moderate carbohydrate (4.0g/kg), low fat (0.8g/kg)",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Includes breakfast, lunch, and dinner options.",
+      "Meal plan is achievable within a single day.",
+      "Provides approximate macronutrient breakdown for the day.",
+      "Generated meal plan aligns closely with the specified high protein, moderate carb, low fat targets."
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete who has very specific macronutrient targets (e.g., high protein, moderate carb, low fat) to evaluate the precision of the generated meal plan in meeting those goals concisely."
+  },
+  {
+    "prompt_inputs": {
+      "height": "185",
+      "weight": "78",
+      "goal": "Muscle gain and maintaining peak performance",
+      "restrictions": "Lactose intolerant, avoids red meat"
+    },
+    "solution_criteria": [
+      "Provides a meal plan for a single day",
+      "Includes breakfast, lunch, dinner, and snacks",
+      "Meal timing aligns with early morning intense training and late afternoon moderate session",
+      "Addresses lactose intolerance and avoidance of red meat"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an athlete whose training schedule is highly unusual (e.g., early morning intense training followed by a late afternoon moderate session) to see if the meal timing and composition adapt appropriately."
+  }
+]
