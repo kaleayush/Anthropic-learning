@@ -1,0 +1,14 @@
+[
+  {
+    "task": "Extract the 'InstanceId' from a single EC2 instance description JSON object.",
+    "format": "python"
+  },
+  {
+    "task": "Define a JSON object representing a simple AWS Lambda function with a name, runtime, and handler.",
+    "format": "json"
+  },
+  {
+    "task": "Create a regex to validate an AWS ARN (Amazon Resource Name) for a specific service, e.g., S3 buckets.",
+    "format": "regex"
+  }
+]
